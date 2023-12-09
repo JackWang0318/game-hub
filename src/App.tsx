@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import { Spinner, Grid, GridItem, Show } from "@chakra-ui/react";
+import { Grid, GridItem, Show } from "@chakra-ui/react";
 import NavBar from "./components/NavBar";
 import GameGrid from "./components/GameGrid";
 import GenreList from "./components/GenreLIst";
@@ -9,7 +9,6 @@ function App() {
 
   return (
     <div className="App">
-      <Spinner color="red.500" />
       <Grid
         templateAreas={{
           base: `"nav" "main"`,

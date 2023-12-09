@@ -1,5 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
 import { Spinner, Grid, GridItem, Show } from "@chakra-ui/react";
 import NavBar from "./components/NavBar";
